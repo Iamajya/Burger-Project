@@ -1,0 +1,151 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.main {
+  height: 100%;
+  width: 100%;
+}
+.section {
+  margin: 10px;
+  min-height: 100px;
+}
+.head {
+  background-color: rgb(248, 245, 245);
+  height: 100%;
+  width: 100%;
+  /* border: 2px solid;   */
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+#logo-vector {
+  height: 90px;
+  width: 100px;
+}
+#Select {
+  border: none;
+}
+.dropbox {
+  border: none;
+  margin-top: 35px;
+  height: 20px;
+  width: 100px;
+  border-radius: 7px;
+  /* position:relative; */
+}
+#contact {
+  position: relative;
+  top: 35px;
+  border-radius: 5px;
+  height: 20px;
+  width: 100px;
+  border: none;
+}
+.kart {
+  position: relative;
+  right: 0px;
+  top: 33px;
+}
+a {
+  color: white;
+}
+#reception {
+  background-color: red;
+  position: relative;
+  right: 28px;
+  top: 35px;
+  width: 120px;
+  color: white;
+  font-weight: 800;
+  border: none;
+  border-radius: 5px;
+}
+.imaside{
+  
+  box-shadow: 2px 2px 2px 2px rgb(199, 197, 197); 
+
+  min-height: 1000px;
+  width: 250px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  /* height: 100%;
+  width: 250px;
+  box-shadow: 2px 2px 2px 2px rgb(199, 197, 197); */
+}
+/* aside */
+.aside {
+  border: 2px solid rgb(247, 243, 243);
+  /* gap: 5px; */
+   height: 350px;
+ /* width: 250px; */
+  /* box-shadow: 2px 2px 2px 2px rgb(199, 197, 197); */
+  /* display: flex; */
+  /* border: 2px solid; */
+  /* display: flex; */
+}
+.menu {
+  display: flex;
+  /* border: 1px solid; */
+  justify-content: space-evenly;
+  height: 40px;
+  text-align: center;
+  padding-top: 9px;
+  /* border-left: 2px solid orangered; */
+}
+.menu1 {
+  background-color: orangered;
+  color: white;
+}
+.menu10 {
+  background-color: orangered;
+  color: white;
+}
+.me:hover {
+  background-color: rgb(187, 178, 178);
+  border-left: 3px solid orangered;
+}
+
+.mainb {
+  display: flex;
+  position: relative;
+  left: 259px;
+  bottom: 408px;
+}
+img {
+  /* width: ; */
+  /* heig   ht: 500px; */
+}
+.price{
+  text-align: center;
+  border: 2px solid white;
+}
+.pheader{
+  background-color: orangered;
+}
+.pheader>img{
+  width: 100px;
+  height: 500px;
+}
+.size{
+  display: flex;
+  margin-left: 70px;
+
+
+}
+.size>div{
+  height: 20px;
+  width: 20px;
+  border: 1px solid black;
+  padding: 0px;
+  margin: 5px;
+}
+.amt{
+  font-weight: 700;
+  font-size: 40px;
+}
+.size>p{
+  text-align: center;
+}
